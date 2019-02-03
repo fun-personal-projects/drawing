@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import pickle
-import training as tr
+import mathrecog as mr
 cap = cv2.VideoCapture(0)
 
 points = []
@@ -65,5 +65,6 @@ while(1):
 cv2.destroyAllWindows()
 #cap.release()
 
-tr.test()
+mr.test()
+
 
