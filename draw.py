@@ -51,8 +51,10 @@ while(1):
 
   elif key & 0xFF == ord('s') and flag == 1 :
     flag = 0
-  for p in points:
-      cv2.circle(finalImg,tuple(p),20,(250,250,250),-1) 
+  for p in range(1, len(points):
+      if points[i-1] is None or points[i] is None:
+      	continue
+      cv2.line(finalImg, points[i-1], points[i], (0,255,0), 5) 
 
   cv2.imshow('Draw',finalImg)
 
